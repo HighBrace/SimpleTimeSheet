@@ -31,3 +31,6 @@ DerivedData
 # Carthage/Checkouts
 
 Carthage/Build
+
+# Ignore generated UML-diagrams
+techdoc/**/*.png

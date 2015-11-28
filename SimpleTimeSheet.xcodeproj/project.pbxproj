@@ -1,0 +1,522 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DD43355E1C09F95C00032E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD43355D1C09F95C00032E1E /* AppDelegate.swift */; };
+		DD4335601C09F95C00032E1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD43355F1C09F95C00032E1E /* ViewController.swift */; };
+		DD4335631C09F95C00032E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4335611C09F95C00032E1E /* Main.storyboard */; };
+		DD4335661C09F95C00032E1E /* SimpleTimeSheet.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DD4335641C09F95C00032E1E /* SimpleTimeSheet.xcdatamodeld */; };
+		DD4335681C09F95C00032E1E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DD4335671C09F95C00032E1E /* Assets.xcassets */; };
+		DD43356B1C09F95C00032E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4335691C09F95C00032E1E /* LaunchScreen.storyboard */; };
+		DD4335761C09F95C00032E1E /* SimpleTimeSheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4335751C09F95C00032E1E /* SimpleTimeSheetTests.swift */; };
+		DD4335811C09F95C00032E1E /* SimpleTimeSheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4335801C09F95C00032E1E /* SimpleTimeSheetUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DD4335721C09F95C00032E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD4335521C09F95C00032E1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD4335591C09F95C00032E1E;
+			remoteInfo = SimpleTimeSheet;
+		};
+		DD43357D1C09F95C00032E1E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DD4335521C09F95C00032E1E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DD4335591C09F95C00032E1E;
+			remoteInfo = SimpleTimeSheet;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DD43355A1C09F95C00032E1E /* SimpleTimeSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimeSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD43355D1C09F95C00032E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		DD43355F1C09F95C00032E1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		DD4335621C09F95C00032E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DD4335651C09F95C00032E1E /* SimpleTimeSheet.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SimpleTimeSheet.xcdatamodel; sourceTree = "<group>"; };
+		DD4335671C09F95C00032E1E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DD43356A1C09F95C00032E1E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		DD43356C1C09F95C00032E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD4335711C09F95C00032E1E /* SimpleTimeSheetTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTimeSheetTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4335751C09F95C00032E1E /* SimpleTimeSheetTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTimeSheetTests.swift; sourceTree = "<group>"; };
+		DD4335771C09F95C00032E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD43357C1C09F95C00032E1E /* SimpleTimeSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTimeSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DD4335801C09F95C00032E1E /* SimpleTimeSheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTimeSheetUITests.swift; sourceTree = "<group>"; };
+		DD4335821C09F95C00032E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DD4335571C09F95C00032E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD43356E1C09F95C00032E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4335791C09F95C00032E1E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DD4335511C09F95C00032E1E = {
+			isa = PBXGroup;
+			children = (
+				DD43355C1C09F95C00032E1E /* SimpleTimeSheet */,
+				DD4335741C09F95C00032E1E /* SimpleTimeSheetTests */,
+				DD43357F1C09F95C00032E1E /* SimpleTimeSheetUITests */,
+				DD43355B1C09F95C00032E1E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DD43355B1C09F95C00032E1E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DD43355A1C09F95C00032E1E /* SimpleTimeSheet.app */,
+				DD4335711C09F95C00032E1E /* SimpleTimeSheetTests.xctest */,
+				DD43357C1C09F95C00032E1E /* SimpleTimeSheetUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DD43355C1C09F95C00032E1E /* SimpleTimeSheet */ = {
+			isa = PBXGroup;
+			children = (
+				DD43355D1C09F95C00032E1E /* AppDelegate.swift */,
+				DD43355F1C09F95C00032E1E /* ViewController.swift */,
+				DD4335611C09F95C00032E1E /* Main.storyboard */,
+				DD4335671C09F95C00032E1E /* Assets.xcassets */,
+				DD4335691C09F95C00032E1E /* LaunchScreen.storyboard */,
+				DD43356C1C09F95C00032E1E /* Info.plist */,
+				DD4335641C09F95C00032E1E /* SimpleTimeSheet.xcdatamodeld */,
+			);
+			path = SimpleTimeSheet;
+			sourceTree = "<group>";
+		};
+		DD4335741C09F95C00032E1E /* SimpleTimeSheetTests */ = {
+			isa = PBXGroup;
+			children = (
+				DD4335751C09F95C00032E1E /* SimpleTimeSheetTests.swift */,
+				DD4335771C09F95C00032E1E /* Info.plist */,
+			);
+			path = SimpleTimeSheetTests;
+			sourceTree = "<group>";
+		};
+		DD43357F1C09F95C00032E1E /* SimpleTimeSheetUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DD4335801C09F95C00032E1E /* SimpleTimeSheetUITests.swift */,
+				DD4335821C09F95C00032E1E /* Info.plist */,
+			);
+			path = SimpleTimeSheetUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DD4335591C09F95C00032E1E /* SimpleTimeSheet */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4335851C09F95C00032E1E /* Build configuration list for PBXNativeTarget "SimpleTimeSheet" */;
+			buildPhases = (
+				DD4335561C09F95C00032E1E /* Sources */,
+				DD4335571C09F95C00032E1E /* Frameworks */,
+				DD4335581C09F95C00032E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleTimeSheet;
+			productName = SimpleTimeSheet;
+			productReference = DD43355A1C09F95C00032E1E /* SimpleTimeSheet.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DD4335701C09F95C00032E1E /* SimpleTimeSheetTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD4335881C09F95C00032E1E /* Build configuration list for PBXNativeTarget "SimpleTimeSheetTests" */;
+			buildPhases = (
+				DD43356D1C09F95C00032E1E /* Sources */,
+				DD43356E1C09F95C00032E1E /* Frameworks */,
+				DD43356F1C09F95C00032E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD4335731C09F95C00032E1E /* PBXTargetDependency */,
+			);
+			name = SimpleTimeSheetTests;
+			productName = SimpleTimeSheetTests;
+			productReference = DD4335711C09F95C00032E1E /* SimpleTimeSheetTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DD43357B1C09F95C00032E1E /* SimpleTimeSheetUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DD43358B1C09F95C00032E1E /* Build configuration list for PBXNativeTarget "SimpleTimeSheetUITests" */;
+			buildPhases = (
+				DD4335781C09F95C00032E1E /* Sources */,
+				DD4335791C09F95C00032E1E /* Frameworks */,
+				DD43357A1C09F95C00032E1E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD43357E1C09F95C00032E1E /* PBXTargetDependency */,
+			);
+			name = SimpleTimeSheetUITests;
+			productName = SimpleTimeSheetUITests;
+			productReference = DD43357C1C09F95C00032E1E /* SimpleTimeSheetUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DD4335521C09F95C00032E1E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "JS HighBrace";
+				TargetAttributes = {
+					DD4335591C09F95C00032E1E = {
+						CreatedOnToolsVersion = 7.1.1;
+					};
+					DD4335701C09F95C00032E1E = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DD4335591C09F95C00032E1E;
+					};
+					DD43357B1C09F95C00032E1E = {
+						CreatedOnToolsVersion = 7.1.1;
+						TestTargetID = DD4335591C09F95C00032E1E;
+					};
+				};
+			};
+			buildConfigurationList = DD4335551C09F95C00032E1E /* Build configuration list for PBXProject "SimpleTimeSheet" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DD4335511C09F95C00032E1E;
+			productRefGroup = DD43355B1C09F95C00032E1E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DD4335591C09F95C00032E1E /* SimpleTimeSheet */,
+				DD4335701C09F95C00032E1E /* SimpleTimeSheetTests */,
+				DD43357B1C09F95C00032E1E /* SimpleTimeSheetUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DD4335581C09F95C00032E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD43356B1C09F95C00032E1E /* LaunchScreen.storyboard in Resources */,
+				DD4335681C09F95C00032E1E /* Assets.xcassets in Resources */,
+				DD4335631C09F95C00032E1E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD43356F1C09F95C00032E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD43357A1C09F95C00032E1E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DD4335561C09F95C00032E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4335661C09F95C00032E1E /* SimpleTimeSheet.xcdatamodeld in Sources */,
+				DD4335601C09F95C00032E1E /* ViewController.swift in Sources */,
+				DD43355E1C09F95C00032E1E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD43356D1C09F95C00032E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4335761C09F95C00032E1E /* SimpleTimeSheetTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD4335781C09F95C00032E1E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DD4335811C09F95C00032E1E /* SimpleTimeSheetUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DD4335731C09F95C00032E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD4335591C09F95C00032E1E /* SimpleTimeSheet */;
+			targetProxy = DD4335721C09F95C00032E1E /* PBXContainerItemProxy */;
+		};
+		DD43357E1C09F95C00032E1E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DD4335591C09F95C00032E1E /* SimpleTimeSheet */;
+			targetProxy = DD43357D1C09F95C00032E1E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DD4335611C09F95C00032E1E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD4335621C09F95C00032E1E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		DD4335691C09F95C00032E1E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DD43356A1C09F95C00032E1E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DD4335831C09F95C00032E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DD4335841C09F95C00032E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD4335861C09F95C00032E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleTimeSheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.highbrace.SimpleTimeSheet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DD4335871C09F95C00032E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SimpleTimeSheet/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.highbrace.SimpleTimeSheet;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DD4335891C09F95C00032E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleTimeSheetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.highbrace.SimpleTimeSheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleTimeSheet.app/SimpleTimeSheet";
+			};
+			name = Debug;
+		};
+		DD43358A1C09F95C00032E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = SimpleTimeSheetTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.highbrace.SimpleTimeSheetTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleTimeSheet.app/SimpleTimeSheet";
+			};
+			name = Release;
+		};
+		DD43358C1C09F95C00032E1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleTimeSheetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.highbrace.SimpleTimeSheetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleTimeSheet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		DD43358D1C09F95C00032E1E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = SimpleTimeSheetUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = se.highbrace.SimpleTimeSheetUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SimpleTimeSheet;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DD4335551C09F95C00032E1E /* Build configuration list for PBXProject "SimpleTimeSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4335831C09F95C00032E1E /* Debug */,
+				DD4335841C09F95C00032E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DD4335851C09F95C00032E1E /* Build configuration list for PBXNativeTarget "SimpleTimeSheet" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4335861C09F95C00032E1E /* Debug */,
+				DD4335871C09F95C00032E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD4335881C09F95C00032E1E /* Build configuration list for PBXNativeTarget "SimpleTimeSheetTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD4335891C09F95C00032E1E /* Debug */,
+				DD43358A1C09F95C00032E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DD43358B1C09F95C00032E1E /* Build configuration list for PBXNativeTarget "SimpleTimeSheetUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD43358C1C09F95C00032E1E /* Debug */,
+				DD43358D1C09F95C00032E1E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		DD4335641C09F95C00032E1E /* SimpleTimeSheet.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				DD4335651C09F95C00032E1E /* SimpleTimeSheet.xcdatamodel */,
+			);
+			currentVersion = DD4335651C09F95C00032E1E /* SimpleTimeSheet.xcdatamodel */;
+			path = SimpleTimeSheet.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = DD4335521C09F95C00032E1E /* Project object */;
+}

@@ -1,0 +1,14 @@
+@startuml
+'
+'	PlantUML
+'
+
+class AClass
+class AnotherClass
+Interface ISomeInterface
+
+AnotherClass -up-|> AClass
+AnotherClass .up.|> ISomeInterface
+
+
+@enduml

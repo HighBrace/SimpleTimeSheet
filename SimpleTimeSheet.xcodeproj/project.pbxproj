@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		DD194C831C0B2DA600D1FD9E /* QuickTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD194C821C0B2DA600D1FD9E /* QuickTest.swift */; };
 		DD194C851C0B3C6B00D1FD9E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DD194C841C0B3C6B00D1FD9E /* README.md */; };
+		DD194C871C0B446600D1FD9E /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD194C861C0B446600D1FD9E /* Swinject.framework */; };
 		DD43355E1C09F95C00032E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD43355D1C09F95C00032E1E /* AppDelegate.swift */; };
 		DD4335601C09F95C00032E1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD43355F1C09F95C00032E1E /* ViewController.swift */; };
 		DD4335631C09F95C00032E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4335611C09F95C00032E1E /* Main.storyboard */; };
@@ -160,6 +161,7 @@
 		DD194C6B1C0B2B6E00D1FD9E /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Carthage/Checkouts/Nimble/Nimble.xcodeproj; sourceTree = "<group>"; };
 		DD194C821C0B2DA600D1FD9E /* QuickTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickTest.swift; sourceTree = "<group>"; };
 		DD194C841C0B3C6B00D1FD9E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		DD194C861C0B446600D1FD9E /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
 		DD43355A1C09F95C00032E1E /* SimpleTimeSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimeSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD43355D1C09F95C00032E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD43355F1C09F95C00032E1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD194C871C0B446600D1FD9E /* Swinject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +254,7 @@
 				DD43355B1C09F95C00032E1E /* Products */,
 				DD194C4A1C0B28D900D1FD9E /* Quick.xcodeproj */,
 				DD194C6B1C0B2B6E00D1FD9E /* Nimble.xcodeproj */,
+				DD194C861C0B446600D1FD9E /* Swinject.framework */,
 			);
 			sourceTree = "<group>";
 		};
@@ -302,8 +306,9 @@
 			buildConfigurationList = DD4335851C09F95C00032E1E /* Build configuration list for PBXNativeTarget "SimpleTimeSheet" */;
 			buildPhases = (
 				DD4335561C09F95C00032E1E /* Sources */,
-				DD4335571C09F95C00032E1E /* Frameworks */,
 				DD4335581C09F95C00032E1E /* Resources */,
+				DD194C8A1C0B46F000D1FD9E /* ShellScript */,
+				DD4335571C09F95C00032E1E /* Frameworks */,
 			);
 			buildRules = (
 			);
@@ -541,6 +546,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		DD194C8A1C0B46F000D1FD9E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/Swinject.framework",
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		DD4335561C09F95C00032E1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -704,6 +726,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SimpleTimeSheet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.highbrace.SimpleTimeSheet;
@@ -718,6 +744,10 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SimpleTimeSheet/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.highbrace.SimpleTimeSheet;
@@ -730,6 +760,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SimpleTimeSheetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.highbrace.SimpleTimeSheetTests;
@@ -742,6 +776,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = SimpleTimeSheetTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = se.highbrace.SimpleTimeSheetTests;

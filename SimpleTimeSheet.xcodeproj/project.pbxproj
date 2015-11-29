@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DD194C831C0B2DA600D1FD9E /* QuickTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD194C821C0B2DA600D1FD9E /* QuickTest.swift */; };
+		DD194C851C0B3C6B00D1FD9E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DD194C841C0B3C6B00D1FD9E /* README.md */; };
 		DD43355E1C09F95C00032E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD43355D1C09F95C00032E1E /* AppDelegate.swift */; };
 		DD4335601C09F95C00032E1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD43355F1C09F95C00032E1E /* ViewController.swift */; };
 		DD4335631C09F95C00032E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4335611C09F95C00032E1E /* Main.storyboard */; };
@@ -158,6 +159,7 @@
 		DD194C4A1C0B28D900D1FD9E /* Quick.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Quick.xcodeproj; path = Carthage/Checkouts/Quick/Quick.xcodeproj; sourceTree = "<group>"; };
 		DD194C6B1C0B2B6E00D1FD9E /* Nimble.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Nimble.xcodeproj; path = Carthage/Checkouts/Nimble/Nimble.xcodeproj; sourceTree = "<group>"; };
 		DD194C821C0B2DA600D1FD9E /* QuickTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickTest.swift; sourceTree = "<group>"; };
+		DD194C841C0B3C6B00D1FD9E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		DD43355A1C09F95C00032E1E /* SimpleTimeSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimeSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD43355D1C09F95C00032E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD43355F1C09F95C00032E1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -242,6 +244,7 @@
 		DD4335511C09F95C00032E1E = {
 			isa = PBXGroup;
 			children = (
+				DD194C841C0B3C6B00D1FD9E /* README.md */,
 				DD43355C1C09F95C00032E1E /* SimpleTimeSheet */,
 				DD4335741C09F95C00032E1E /* SimpleTimeSheetTests */,
 				DD43357F1C09F95C00032E1E /* SimpleTimeSheetUITests */,
@@ -553,6 +556,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD194C851C0B3C6B00D1FD9E /* README.md in Sources */,
 				DD4335761C09F95C00032E1E /* SimpleTimeSheetTests.swift in Sources */,
 				DD194C831C0B2DA600D1FD9E /* QuickTest.swift in Sources */,
 			);

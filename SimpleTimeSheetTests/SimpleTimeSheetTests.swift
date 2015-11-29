@@ -7,6 +7,9 @@
 //
 
 import XCTest
+import Quick
+import Nimble
+
 @testable import SimpleTimeSheet
 
 class SimpleTimeSheetTests: XCTestCase {
@@ -24,6 +27,7 @@ class SimpleTimeSheetTests: XCTestCase {
     func testExample() {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
+        expect(false).to(equal(false))
     }
     
     func testPerformanceExample() {

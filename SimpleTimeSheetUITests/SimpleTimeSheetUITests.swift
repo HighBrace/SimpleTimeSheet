@@ -29,6 +29,8 @@ class SimpleTimeSheetUITests: XCTestCase {
     }
     
     func testExample() {
+        XCTAssertTrue(XCUIApplication().staticTexts["Super Simple TimeSheet"].exists)
+        
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }

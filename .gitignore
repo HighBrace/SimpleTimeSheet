@@ -28,10 +28,7 @@ DerivedData
 # Carthage
 #
 # Add this line if you want to avoid checking in source code from Carthage dependencies.
-#Carthage/Checkouts
-
-#Carthage/Build
-Carthage/Checkouts/Swinject
+Carthage/
 
 # Ignore generated UML-diagrams
 techdoc/**/*.png

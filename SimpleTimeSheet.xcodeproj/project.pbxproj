@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		DD194C831C0B2DA600D1FD9E /* QuickTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD194C821C0B2DA600D1FD9E /* QuickTest.swift */; };
 		DD194C851C0B3C6B00D1FD9E /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = DD194C841C0B3C6B00D1FD9E /* README.md */; };
-		DD194C871C0B446600D1FD9E /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD194C861C0B446600D1FD9E /* Swinject.framework */; };
 		DD43355E1C09F95C00032E1E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD43355D1C09F95C00032E1E /* AppDelegate.swift */; };
 		DD4335601C09F95C00032E1E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD43355F1C09F95C00032E1E /* ViewController.swift */; };
 		DD4335631C09F95C00032E1E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4335611C09F95C00032E1E /* Main.storyboard */; };
@@ -18,6 +17,9 @@
 		DD43356B1C09F95C00032E1E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DD4335691C09F95C00032E1E /* LaunchScreen.storyboard */; };
 		DD4335761C09F95C00032E1E /* SimpleTimeSheetTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4335751C09F95C00032E1E /* SimpleTimeSheetTests.swift */; };
 		DD4335811C09F95C00032E1E /* SimpleTimeSheetUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD4335801C09F95C00032E1E /* SimpleTimeSheetUITests.swift */; };
+		DD5822F01C0CEF8C001F8473 /* Swinject.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5822ED1C0CEF8C001F8473 /* Swinject.framework */; };
+		DD5822F41C0CF278001F8473 /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5822EC1C0CEF8C001F8473 /* Quick.framework */; };
+		DD5822F51C0CF27B001F8473 /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD5822EB1C0CEF8C001F8473 /* Nimble.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +39,22 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DD194D4B1C0CDF9C00D1FD9E /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		DD194C821C0B2DA600D1FD9E /* QuickTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = QuickTest.swift; sourceTree = "<group>"; };
 		DD194C841C0B3C6B00D1FD9E /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		DD194C861C0B446600D1FD9E /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
 		DD43355A1C09F95C00032E1E /* SimpleTimeSheet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleTimeSheet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD43355D1C09F95C00032E1E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DD43355F1C09F95C00032E1E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -55,6 +69,9 @@
 		DD43357C1C09F95C00032E1E /* SimpleTimeSheetUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleTimeSheetUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DD4335801C09F95C00032E1E /* SimpleTimeSheetUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTimeSheetUITests.swift; sourceTree = "<group>"; };
 		DD4335821C09F95C00032E1E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD5822EB1C0CEF8C001F8473 /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Build/iOS/Nimble.framework; sourceTree = "<group>"; };
+		DD5822EC1C0CEF8C001F8473 /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Build/iOS/Quick.framework; sourceTree = "<group>"; };
+		DD5822ED1C0CEF8C001F8473 /* Swinject.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Swinject.framework; path = Carthage/Build/iOS/Swinject.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,7 +79,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DD194C871C0B446600D1FD9E /* Swinject.framework in Frameworks */,
+				DD5822F01C0CEF8C001F8473 /* Swinject.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,6 +87,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD5822F41C0CF278001F8473 /* Quick.framework in Frameworks */,
+				DD5822F51C0CF27B001F8473 /* Nimble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -94,6 +113,23 @@
 			name = Appsupport;
 			sourceTree = "<group>";
 		};
+		DD194D3B1C0CDBD600D1FD9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD5822EB1C0CEF8C001F8473 /* Nimble.framework */,
+				DD5822EC1C0CEF8C001F8473 /* Quick.framework */,
+				DD5822ED1C0CEF8C001F8473 /* Swinject.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DD194D421C0CDC2500D1FD9E /* dSYMs */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = dSYMs;
+			sourceTree = "<group>";
+		};
 		DD4335511C09F95C00032E1E = {
 			isa = PBXGroup;
 			children = (
@@ -102,7 +138,8 @@
 				DD4335741C09F95C00032E1E /* SimpleTimeSheetTests */,
 				DD43357F1C09F95C00032E1E /* SimpleTimeSheetUITests */,
 				DD43355B1C09F95C00032E1E /* Products */,
-				DD194C861C0B446600D1FD9E /* Swinject.framework */,
+				DD194D3B1C0CDBD600D1FD9E /* Frameworks */,
+				DD194D421C0CDC2500D1FD9E /* dSYMs */,
 			);
 			sourceTree = "<group>";
 		};
@@ -155,7 +192,8 @@
 			buildPhases = (
 				DD4335561C09F95C00032E1E /* Sources */,
 				DD4335581C09F95C00032E1E /* Resources */,
-				DD194C8A1C0B46F000D1FD9E /* ShellScript */,
+				DD194D4B1C0CDF9C00D1FD9E /* Embed Frameworks */,
+				DD5822F31C0CEFC1001F8473 /* ShellScript */,
 				DD4335571C09F95C00032E1E /* Frameworks */,
 			);
 			buildRules = (
@@ -275,13 +313,15 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		DD194C8A1C0B46F000D1FD9E /* ShellScript */ = {
+		DD5822F31C0CEFC1001F8473 /* ShellScript */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
 				"$(SRCROOT)/Carthage/Build/iOS/Swinject.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Quick.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/Nimble.framework",
 			);
 			outputPaths = (
 			);

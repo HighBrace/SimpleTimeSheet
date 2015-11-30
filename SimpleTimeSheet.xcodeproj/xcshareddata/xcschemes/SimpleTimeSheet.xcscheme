@@ -38,6 +38,16 @@
                ReferencedContainer = "container:SimpleTimeSheet.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "DD43357B1C09F95C00032E1E"
+               BuildableName = "SimpleTimeSheetUITests.xctest"
+               BlueprintName = "SimpleTimeSheetUITests"
+               ReferencedContainer = "container:SimpleTimeSheet.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

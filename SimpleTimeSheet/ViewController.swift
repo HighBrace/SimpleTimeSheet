@@ -4,7 +4,7 @@
 //
 //  Created by Jonas Sääv on 2015-11-28.
 //  Copyright © 2015 JS HighBrace. All rights reserved.
-//
+///
 
 import UIKit
 

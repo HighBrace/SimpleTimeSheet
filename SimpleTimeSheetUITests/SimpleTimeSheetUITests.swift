@@ -7,6 +7,7 @@
 //
 
 import XCTest
+import Nimble
 
 class SimpleTimeSheetUITests: XCTestCase {
         
@@ -30,7 +31,7 @@ class SimpleTimeSheetUITests: XCTestCase {
     
     func testExample() {
         XCTAssertTrue(XCUIApplication().staticTexts["Super Simple TimeSheet"].exists)
-        
+        expect(false).to(equal(false))
         // Use recording to get started writing UI tests.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
